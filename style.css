@@ -19,7 +19,12 @@ body {
     max-width: 420px;
     margin: 1em;
 }
-.search {
+
+.card:hover {
+    transform: scale(1.01);
+    box-shadow: rgb(102, 105, 103) 0px 1rem 1rem 0rem;
+
+    .search {
     display: flex;
     align-items: center;
     justify-content: center;
