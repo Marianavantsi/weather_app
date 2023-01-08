@@ -9,8 +9,8 @@ let weather = {
       )
         .then((response) => {
           if (!response.ok) {
-            alert("Unfortunately, this location cannot be found");
-            throw new Error("No weather found.");
+            alert("Unfortunately, this location cannot be found:(");
+            throw new Error("Unfortunately, this location cannot be found :(");
           }
           return response.json();
         })
